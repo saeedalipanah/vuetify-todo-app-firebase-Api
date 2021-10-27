@@ -1,0 +1,34 @@
+{
+    "header":{
+        "todo":"TODO",
+        "saeed":"SAEED",
+        "signout":"signout",
+        "arrowButton":"mdi-arrow-left",
+        "changeLanguage":"language"
+    },
+    "navigationDrawer":{
+        "dashboard":"dashboard",
+        "projects":"projects",
+        "team":"team"
+    },
+    "dashboard":{
+        "sortBy":"Sort by :",
+        "projectName":"project name",
+        "person":"person",
+        "projectNameTooltip":"sort projects by project name",
+        "personTooltip":"sort projects by owner of project",
+        "addProjectTooltip":"Add a new project",
+        "projectTitle":"Project Title",
+        "dueBy":"Due by",
+        "status":"Status",
+        "information":"inforamtion",
+        "dueDate":"due date:"
+    },
+
+    "rules":{
+        "required":"required"
+    }
+    
+    
+
+}

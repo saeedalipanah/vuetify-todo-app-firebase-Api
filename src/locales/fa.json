@@ -1,0 +1,32 @@
+{
+    "header":{
+        "todo":"لیست کار",
+        "saeed":"سعید",
+        "signout":"خروج",
+        "arrowButton":"mdi-arrow-right",
+        "changeLanguage":"زبان"
+    },
+    "navigationDrawer":{
+        "dashboard":"میزکار",
+        "projects":"پروژه ها",
+        "team":"تیم"
+    },
+    "dashboard":{
+        "sortBy":"مرتب کردن بر اساس :",
+        "projectName":"نام پروژه",
+        "person":"شخصیت",
+        "projectNameTooltip":"مرتب کردن بر اساس نام پروژه",
+        "personTooltip":"مرتب کردن بر اساس سازنده پروژه",
+        "addProjectTooltip":"ساختن پروژه ی جدید",
+        "projectTitle":"عنوان پروژه",
+        "dueBy":"ساخته شده در",
+        "status":"وضعیت",
+        "information":"اطلاعات",
+        "dueDate":"تاریخ ساخت"
+        
+    },
+    "rules":{
+        "required":"وارد کردن این فیلد الزامیست"
+    }
+
+}
