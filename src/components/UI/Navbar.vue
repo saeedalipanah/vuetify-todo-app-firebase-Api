@@ -161,7 +161,8 @@ export default {
   font-size: x-large;
 }
 .list-items{
-  font-size: medium !important;;
+  font-size: medium !important;
+  line-height: 20px !important;
 }
 
 

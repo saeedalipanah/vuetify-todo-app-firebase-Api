@@ -117,12 +117,11 @@ export default {
           context.state.isLoading = false
         })
         .catch((err) => console.log(err));
-
+      context.state.isLoading = true
       context.commit("addProject", projectDate);
     },
    
     loadProjects(context ){
-      console.log()
       context.state.isLoading= true
       axios.get('https://todo-saeed-app-default-rtdb.firebaseio.com/projects.json')
     .then(response=>{ // then structure : .then((...) => {...})
@@ -144,7 +143,7 @@ export default {
       context.commit('loadProjects', projects)
     })
     .catch(error=>console.log(error))
-
+      context.state.isLoading=false
     }
 
     //   loadCoaches(context) {

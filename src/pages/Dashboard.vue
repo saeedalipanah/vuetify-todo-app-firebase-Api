@@ -134,7 +134,7 @@
             >
             <v-btn class="mx-2" @click="cancelDialog">cancel</v-btn>
           </template>
-        </base-dialog>
+        </base-dialog >
       </v-row>
 
       <v-row class="justify-center" v-if="isLoading">
