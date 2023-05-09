@@ -44,7 +44,6 @@ dialog {
   box-shadow: 8px 10px 20px rgba(0, 0, 0, 0.664);
   overflow: hidden;
   z-index: 100;
-  /*برای این است که چه آیتمی بر روی چه آیتمی قرار گیرد. عدد هرکدام بزرگتر بود بر روی اعداد کوچکتر از خود قرار میگیرد */
 }
 .back-drop {
   position: fixed;

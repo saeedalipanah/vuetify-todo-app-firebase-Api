@@ -94,32 +94,32 @@
         </v-row>
 
         <v-list dense>
-          <v-list-item to="/dashboard" class="ma-4">
+          <v-list-item to="/dashboard" class="ma-4 list-item">
             <v-list-item-icon>
               <v-icon large class="white--text">mdi-view-dashboard</v-icon>
             </v-list-item-icon>
             <v-list-item-content>
-              <v-list-item-title class=" list-items white--text">
+              <v-list-item-title class=" list-item-title white--text">
                 {{$t("navigationDrawer.dashboard")}}
               </v-list-item-title>
             </v-list-item-content>
           </v-list-item>
-          <v-list-item to="/projects" class="ma-4">
+          <v-list-item to="/projects" class="ma-4 list-item">
             <v-list-item-icon>
               <v-icon large class="white--text">mdi-folder</v-icon>
             </v-list-item-icon>
             <v-list-item-content>
-              <v-list-item-title class="list-items white--text"
+              <v-list-item-title class="list-item-title white--text"
                 >{{$t("navigationDrawer.projects")}}</v-list-item-title
               >
             </v-list-item-content>
           </v-list-item>
-          <v-list-item to="/team" class="ma-4">
+          <v-list-item to="/team" class="ma-4 list-item">
             <v-list-item-icon>
               <v-icon large class="white--text">mdi-account-group</v-icon>
             </v-list-item-icon>
             <v-list-item-content>
-              <v-list-item-title class="list-items white--text"
+              <v-list-item-title class="list-item-title white--text"
                 >{{$t("navigationDrawer.team")}}</v-list-item-title
               >
             </v-list-item-content>
@@ -156,11 +156,19 @@ export default {
 };
 </script>
 <style scoped>
-
+.app-bar{
+}
 .t-title {
   font-size: x-large;
 }
-.list-items{
+.list-item{
+  background: rgb(116, 116, 116);
+  border-radius: 2px;
+}
+.list-item:hover{
+  background: rgb(60, 60, 60);
+}
+.list-item-title{
   font-size: medium !important;
   line-height: 20px !important;
 }
